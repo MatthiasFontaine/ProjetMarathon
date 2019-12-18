@@ -1,0 +1,4 @@
+        use App\Models\series;
+        
+        $series = DB::table('series')->Orderby('note', 'desc')->limit(10)->get();
+        return view("index",['episodes'=>$series]);
