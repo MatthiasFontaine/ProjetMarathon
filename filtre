@@ -3,3 +3,11 @@
         $series = DB::table('series')->Orderby('note', 'desc')->limit(10)->get();
         $com = DB::table('comments')->Orderby('updated_at', 'asc')->limit(10)->get();
         return view("index",['episodes'=>$series]);
+
+//requete naim
+$var1 = {{$users->id}}
+$nbEpisodeVue = DB::table('seen')->Count(episode_id)->where(user_id == $var1);//->get()
+
+$nbAvisPoste = DB::table('comment')->Count(id)->where(uder_id == $var1);//->get()
+
+$TempsVisionnage = DB::table('')
