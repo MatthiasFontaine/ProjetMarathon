@@ -1,0 +1,60 @@
+//Controller
+
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\comments;
+use Illuminate\Http\Request;
+
+class MainController extends Controller
+{
+    public function index() {
+        $comments = comments::all();
+        return view('index', ['comments' => $comments]);
+    }
+}
+
+/// index.blade.php
+
+@extends('layouts.app')
+
+@section('content')
+
+    @if(!empty($comments))
+        <ul>
+
+            @foreach($comments as $tache)
+
+                    @if($tache->serie_id == 5)
+                        >id: {{$tache->id}} <br>
+                        Contenue: {{$tache->content}} <br>
+                        Note: {{$tache->note}}<br>
+                        Validation: {{$tache->validated}} <br>
+                        Id Utilisateur: {{$tache->user_id}} <br>
+                        Id Séries: {{$tache->serie_id}}<br> <br>
+
+
+                    @endif
+            @endforeach
+        </ul>
+
+    @else
+        <h3>aucun commentaire</h3>
+    @endif
+
+@endsection
+
+
+// Model
+
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class comments extends Model
+{
+    protected $table='comments';
+}
