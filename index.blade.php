@@ -58,11 +58,11 @@
 
         <div class="first_slider"> 
 
-                <div><h2>1ere critique</h2></div>
-                <div><h2>2eme critique</h2></div>
-                <div><h2>3eme critique</h2></div>
-                <div><h2>4eme critique</h2></div>
-                <div><h2>5eme critique</h2></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">1ere critique</a></div></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">1ere critique</a></div></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">1ere critique</a></div></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">1ere critique</a></div></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">1ere critique</a></div></div>
 
         </div>
 
@@ -73,11 +73,11 @@
 
         <div class="second_slider">
 
-                <div><h2>1ere critique</h2></div>
-                <div><h2>2eme critique</h2></div>
-                <div><h2>3eme critique</h2></div>
-                <div><h2>4eme critique</h2></div>
-                <div><h2>5eme critique</h2></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">Voir</a></div></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">Voir</a></div></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">Voir</a></div></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">Voir</a></div></div>
+                <div><img src="/img/bj.jpg"><div class="slider_hover"><a href="">Voir</a></div></div>
 
         </div>
 
@@ -88,8 +88,8 @@
 
         <div class="third_slider"> 
 
-                <div><h2>1ere video</h2></div>
-                <div><h2>2eme video</h2></div>
+                <div><a href=""><img src=""></div>
+                <div><a href=""><img src=""></div>
 
         </div>
     </div>
