@@ -48,7 +48,7 @@
         
         <p id="slogan">Watch it, and let's talk about it!</p>
 
-        <img src="https://popupfilmresidency.org/wp-content/uploads/2019/05/white-down-arrow-png-2.png" id="arrow">
+        <img src="/img/arrow.png" id="arrow">
 
         
 
