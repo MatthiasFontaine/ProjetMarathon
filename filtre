@@ -1,4 +1,5 @@
         use App\Models\series;
         
         $series = DB::table('series')->Orderby('note', 'desc')->limit(10)->get();
+        $com = DB::table('comments')->Orderby('updated_at', 'asc')->limit(10)->get();
         return view("index",['episodes'=>$series]);
