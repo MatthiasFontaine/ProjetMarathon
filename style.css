@@ -4,9 +4,17 @@
 
 *{
     margin: 0 auto;
-    color: white;
-
+ 
 }
+
+body {
+    color: white;    
+}
+
+body a {
+    color: white;
+}
+
 .background{
     position: relative;
     width: 100%;
@@ -40,6 +48,11 @@
 .header {
     height: 15rem;
     text-align: justify;
+}
+
+.header a {
+
+    color: white;  
 }
 
 .header p{
@@ -240,7 +253,83 @@
     height: 22rem;
 }
 
+
+/* PAGE EPISODE ****************************************************************************** */
+
+
+.presentation_ep{
+    display: flex;
+}
+
+.test_ep{
+    float: left;
+    height: 35rem;
+    width: 40rem;
+    background-color: RGBA(10,10,10,0.6);
+    margin-left: 9rem
+}
+
+.presentation_contenu_ep{
+    float: right;
+    margin-left: 5rem;
+}
+
+.presentation_contenu_ep h1{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.presentation_contenu_ep h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem
+}
+
+.presentation_contenu_ep h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.presentation_contenu_ep h4{
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.presentation_contenu_ep p{
+    margin-right: 3rem;
+    width: 65rem;
+    font-size: 1.5rem;
+}
+
+.switch_episode img{
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.switch_episode{
+    display: flex;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4.5rem;
+}
+
+.ep_precedent{
+    align-content: flex-start;
+}
+
+.ep_precedent{
+    align-content: flex-start;
+}
+
+
+
+
+
 /* PAGE SERIE ****************************************************************************** */
+
+
+/* PRESENTATION ***************************** */
 
 .presentation{
     display: flex;
@@ -270,7 +359,7 @@
 }
 
 .presentation_contenu h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 3rem;
 }
 
@@ -290,9 +379,136 @@
         margin-top: 4rem;
 }
 
-/* PAGE EPISODE ****************************************************************************** */
+
+/* CRITIQUES **************************************** */
+
+.critique{
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+    display: flex;
+    width: 80%;
+}
+
+.critique_redac{
+    float: left;
+    width: 85rem;
+}
+
+.critique_redac h1{
+    font-size: 2.5rem;
+    margin-bottom: 6rem;
+    text-align: center;
+
+}
+
+.critique_redac_contenu h2{
+    padding-top: 1.5rem;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+
+}
+
+.critique_redac_contenu p{
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    font-size: 1.3rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
 
 
+
+.critique_redac > div {
+    color:  #333;
+    margin-top: 2rem;
+    background-color: white;
+    width: 90%;
+}
+
+
+
+
+.critique_utilisateur{
+    float: right;
+}
+.critique_utilisateur h1{
+    font-size: 2.5rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.critique_contenu h2{
+    padding-top: 1rem;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
+
+.critique_contenu p{
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    font-size: 1.1rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.critique_utilisateur > div{
+    width: 70%;
+    color:  #333;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+
+.critique_info_utilisateur{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.critique_info_utilisateur h4{
+    font-size: 1.2rem;
+}
+
+
+/* LISTE EPISODES ********************************* */
+
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroulant {
+/* on centre le menu dans la page */
+    text-align: center;
+}
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+}
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+	color:#000;
+}
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
 
 
 /* PAGE LOGIN ******************************************************************************** */
@@ -300,6 +516,21 @@
 
 .bodylogin {
        display:flex;
+       color: white;
+   }
+
+   #signup-form h2{
+       text-align: center;
+       font-size: 2rem;
+       margin-bottom: 2rem;
+   }
+
+   .signup{
+       margin-top: -3rem;
+   }
+
+   .signup a{
+       text-decoration: none;
    }
 
 
@@ -439,6 +670,7 @@ p {
 
 .bodyaccount{
     margin-top: 5rem;
+    color: white;
 }
 
 .position-center {
@@ -489,5 +721,6 @@ padding-left: 25px;}
 
 #inscription a{
     text-decoration: none;
+    color: white;
 }
 
