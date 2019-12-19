@@ -57,7 +57,7 @@
         </div>
         <div id="info_flex_utilisateur">
             <h1>Utilisateur</h1>
-            <p><i>"  Inserer ici le laravel SANS enlever les guillemets  "</i></p>
+                <p><i>"  Inserer ici le laravel SANS enlever les guillemets  "</i></p>
         </div>
     </div>
 
@@ -65,9 +65,9 @@
 
       <div class="visionage">
           <span id="heures_num">504<span id="heures">heures</span></span>
-          <p>de visionage total</p>
+            <p>de visionage total</p>
           <span id="heures_num">87<span id="heures">épisodes</span></span>
-          <p>visionnés au total</p>
+            <p>visionnés au total</p>
       </div>
 
 

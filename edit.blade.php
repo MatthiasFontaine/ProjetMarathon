@@ -23,7 +23,7 @@
 
         <header class="header">
 
-             <p><a href="">Watch it!</a></p>
+            <p><a href="">Watch it!</a></p>
 
                 <nav>
                     <div class="recherche">
@@ -45,33 +45,24 @@
         </header>
 
 
-        <div class="liste_series"> 
+    <div class="edit">
+        <h2 id="edit_titre">Modifier la critique sur *inserer nom série*</h2>
+            <form>
+                <div id="edit_flex">
+                    <div id="edit_flex_head">
+                        <input type="text" name="note" placeholder="Note">
+                    </div>
+                    <div id="edit_flex_body">
+                        <input type="text" name="critique" placeholder="Modifier votre critique...">
+                    </div>
+                    <div>
+                        <input type="submit" alt="OK" value="OK">
+                        <input type="submit" alt="ANNULER" value="ANNULER">
+                    </div>
+                </div>
+            </form>
+    </div>
 
-            <div>
-                <img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-            </div>
-            <div>
-                <img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-            </div>
-            <div>
-                <img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-            </div>
-            <div><img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-            </div>
-            <div><img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-                <img src="/img/bj.jpg">
-            </div>
-            
-        </div>
 
 </body>
 </html>

@@ -30,7 +30,7 @@
         <div class="bodylogin">
       <div id="form_wrapper">
             <div id="form_left">
-                <img src="persona-5-ps4-ac9961ef.jpg">
+                <img src="{{ asset('img/logo.png') }}">
             </div>
             <div id="form_right">
                 <h1>Connexion</h1>

@@ -138,6 +138,55 @@
         </form>
     </div>
 
+
+    <div class="saison">
+        <h1 id="liste_episode">Liste des episodes</h1>
+
+            <div class="episode_slider"> 
+
+                    <div><a href="">Saison 1</a></div>
+                    <div><a href="">Saison 2</a></div>
+                    <div><a href="">Saison 3</a></div>
+                    <div><a href="">Saison 4</a></div>
+
+            </div>
+
+
+
+            <div class="liste_episodes"> 
+            
+                <div>
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                </div>
+                <div>
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                </div>
+                <div>
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                </div>
+                <div>
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                </div>
+                <div>
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                    <img src="/img/bj.jpg">
+                </div>
+
+            </div>
+
+    </div>
+
+
+
 </body>
 
 </html>

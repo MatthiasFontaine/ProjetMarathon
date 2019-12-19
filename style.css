@@ -113,6 +113,16 @@ body a {
     width: 6rem;
     align-content: center;
     margin-bottom: 13rem;
+
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+#arrow:hover{
+    -webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 #slider_title{
@@ -305,6 +315,16 @@ body a {
     padding-left: 1.2rem;
     width: 1.7rem;
     height: 1.7rem;
+    
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.switch_episode:hover img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 .switch_episode{
@@ -377,6 +397,15 @@ body a {
         width: 4rem;
         align-content: center;
         margin-top: 4rem;
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
+        -webkit-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+    }
+    
+.presentation_arrow:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 
@@ -384,7 +413,7 @@ body a {
 
 .critique{
     margin-top: 12rem;
-    margin-bottom: 12rem;
+    margin-bottom: 15rem;
     display: flex;
     width: 80%;
 }
@@ -478,7 +507,6 @@ body a {
     text-align: center;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 17rem;
 }
 
 .ecrire_flex{
@@ -505,6 +533,7 @@ body a {
 
 .ecrire input[type='text']{
     background-color: white;
+    color: #333;
     border-radius: 0.1rem;
     border: none
 }
@@ -524,6 +553,54 @@ body a {
 
 
 /* LISTE EPISODES ********************************* */
+
+.saison{
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+#liste_episode{
+    font-size: 2.7rem;
+    margin-bottom: 5rem;
+}
+
+.episode_slider a{
+    text-decoration: none;
+}
+
+.episode_slider{
+    font-size: 2rem;
+    width: 50vw;
+    display: flex;
+    align-content: center;
+    flex-basis: 20%;
+    justify-content: space-between;
+}
+
+
+.episode_slider > div{
+    background-color: RGBA(10,10,10,0.5);
+    margin: 0;
+    width: 8.5rem;
+    height: 3rem;
+    position: relative;
+}
+
+.liste_episodes{
+    margin-top: 6rem;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+    justify-content: space-between;
+    grid-gap: 2rem;
+}
+
+.liste_episodes img{
+    width: 10rem;
+    height: 13rem;
+    margin-bottom: 3rem;
+}
 
 
 
@@ -567,8 +644,8 @@ body a {
    }
 
    #form_left img {
-       width: 350px;
-       height: 350px;
+       width: 25rem;
+       height: 17rem;
    }
 
  #form_right {
@@ -788,6 +865,16 @@ padding-left: 25px;}
     height: 4rem;
     width: 4rem;
     align-content: center;
+    
+    -webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.utilisateur_arrow:hover{
+    -webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 .progression {
@@ -901,4 +988,60 @@ padding-left: 25px;}
     margin-right: auto;
     width: 35rem;
     height: 20rem;
+}
+
+
+
+/* EDIT ************************************************************************************************** */
+
+
+.edit{
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 17rem;
+}
+
+.edit_flex{
+}
+
+#edit_flex_head input{
+    margin: 0;
+    width: 12rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+#edit_flex_body input{
+    margin: 0;
+    width: 30vw;
+    padding-bottom: 12rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.edit input[type='text']{
+    background-color: white;
+    color: #333;
+    border-radius: 0.1rem;
+    border: none
+}
+
+.edit input[type='submit']{
+    height: 2rem;
+    width: 16.5vw;
+    background-color: #333;
+    color: white;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem
+
+}
+
+#edit_titre{
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
 }
