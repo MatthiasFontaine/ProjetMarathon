@@ -384,7 +384,7 @@ body a {
 
 .critique{
     margin-top: 12rem;
-    margin-bottom: 8rem;
+    margin-bottom: 12rem;
     display: flex;
     width: 80%;
 }
@@ -478,9 +478,48 @@ body a {
     text-align: center;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 17rem;
 }
 
 .ecrire_flex{
+}
+
+#ecrire_flex_head input{
+    margin: 0;
+    width: 18.5rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+#ecrire_flex_body input{
+    margin: 0;
+    width: 30vw;
+    padding-bottom: 12rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ecrire input[type='text']{
+    background-color: white;
+    border-radius: 0.1rem;
+    border: none
+}
+
+.ecrire input[type='submit']{
+    height: 2rem;
+    width: 33.33vw;
+    background-color: #333;
+    color: white;
+
+}
+
+#ecrire_titre{
+    font-size: 2.5rem;
+    margin-bottom: 4.5rem;
 }
 
 
@@ -704,105 +743,97 @@ padding-left: 25px;}
 
 /* UTILISATEUR  + STATS ***************************************************** */
 
-.presentatuin_utilisateur{
-
-}
-
-a:hover, a:focus {
-	color: #005580;
-	text-decoration: underline;
-}
-.img-rounded {
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-}
-
-.img-circle {
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	border-radius: 500px;
-}
-
-.row {
-	margin-left: -20px;
- *zoom: 1;
-}
-
-.row:before, .row:after {
-	display: table;
-	content: "";
-	line-height: 0;
-}
-.row:after {
-	clear: both;
-}
-[class*="span"] {
- float: left;
- min-height: 1px;
- margin-left: 20px;
-}
-.container_utilisateur {
-	width: 940px;
-}
-
-.span6{
+.presentation_utilisateur{
     display: flex;
-    position: relative;
-    padding-top: 200px;
+    margin-top: 7rem;
+    margin-left: 22rem;
+    margin-bottom: 15rem;
+    margin-right: 8rem;
 }
 
-.span5 {
-    width: 480px;
-    
-}
-.span3 {
-	width: 190px;
-}
-
-.resize{
- width: 170px;
-  border-radius: 50%;
+.presentation_utilisateur img{
+    height: 15rem;
+    width: 15rem;
+    border: 0.5rem solid white;
+    border-radius: 50%;
 }
 
-.acote{
-    display: flex;
+.presentation_utilisateur h1{
+    margin-top: 1rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
 }
- 
-.visionage h4{
+
+.presentation_utilisateur p{
+    font-size: 1.8rem;
+}
+
+#img_flex_utilisateur{
     margin: 0;
-    font-size: 50px;
+}
+
+#info_flex_utilisateur{
+    margin: 0;
+    margin-left: 5rem;
+    margin-right: 4rem;
+
+
+}
+
+.utilisateur_arrow{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10rem;
+    height: 4rem;
+    width: 4rem;
+    align-content: center;
+}
+
+.progression {
+    width: 65vw;
+    display: flex;
+    margin-bottom: 15rem;
+    margin-left: auto;
+    text-align: center;
+    flex-wrap: wrap;
+   
+}
+
+.progression > div {
+    flex: 0 1 32%;
+}
+
+.progression h2{
+    font-size: 1.8rem;
+    margin-bottom: 1.7rem;
+}
+
+.progression progress{
+   margin-bottom: 6rem;
+}
+
+
+.visionage{
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+#heures_num{
+    font-size: 7rem;
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+}
+
+#heures{
+    font-family: 'Dosis', sans-serif;
+    margin-left: 1.5rem;
+    font-size: 3rem;
 }
 .visionage p{
-    margin: 0;
-    padding-bottom: 70px;
+    font-size: 2.2rem;
+    margin-bottom: 5rem;
 }
-
-progress[value]::-webkit-progress-bar {
-    color: blueviolet;
-  background-color: blueviolet;
-  border-radius: 2px;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-    width: 480px;
-}
-
-th, td {
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even){background-color: #f2f2f2}
-
-th {
-  background-color: darkviolet;
-  color: white;
-}
-
-
 
 /* LISTE SERIES ******************************************************************************************/
 

@@ -120,25 +120,24 @@
                 
         </div>
 
-
     </div>
 
-
-
-    <div class="liste_episodes">
-
-        <ul id="menu_deroulant">
-        <li><a href="#">Lien menu 1</a>
-            <ul>
-                <li><a href="#">Saison 1</a></li>
-                <li><a href="#">Saison 2</a></li>
-                <li><a href="#">Saison 3</a></li>
-            </ul>
-        </li>
-    </ul>
-
+    <div class="ecrire">
+        <h2 id="ecrire_titre">Ecrire une critique sur *inserer le nom de la série*</h2>
+            <form>
+                <div id="ecrire_flex">
+                    <div id="ecrire_flex_head">
+                        <input type="text" name="titre" placeholder="Titre">
+                        <input type="text" name="note" placeholder="Note">
+                    </div>
+                    <div id="ecrire_flex_body">
+                        <input type="text" name="critique" placeholder="Ecrivez votre critique...">
+                    </div>
+                    <div>
+                        <input type="submit" alt="OK" value="OK">
+                    </div>
+        </form>
     </div>
-
 
 </body>
 
