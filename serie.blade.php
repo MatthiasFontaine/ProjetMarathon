@@ -23,7 +23,7 @@
 
         <header class="header">
         
-                    <p>Watch it!</p>
+            <p><a href="">Watch it!</a></p>
         
                         <nav>
                             <div class="recherche">
@@ -32,7 +32,6 @@
         
                                 <h1><a href="/resources/views/episode.blade.php">Explorer</a></h1>
                                 <h1><a href="episode.php">Critiques</a></h1>
-                                <h1><a href="episode.blade.php">Mes critiques</a></h1>
                                 <h1><a href="">Mon compte</a><h1>
         
                                 <form method="post">

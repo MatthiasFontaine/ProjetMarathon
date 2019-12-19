@@ -17,13 +17,13 @@
 <body>
 
     <div class="background">
-        <img src="/img/bg.png" id="background_image">
+        <img src="{{ asset('img/bg.png') }}" id="background_image">
         <div id="filtre"></div>
         <div id="text">
 
         <header class="header">
 
-             <p><a href="">Watch it!</a></p>
+            <p><a href="">Watch it!</a></p>
 
                 <nav>
                     <div class="recherche">
@@ -45,24 +45,10 @@
         </header>
 
 
-        <div class="liste_series"> 
+        <div id="error_image">
 
-        <div><img src="/img/bj.jpg">
-        <img src="/img/bj.jpg">
-        <img src="/img/bj.jpg"></div>
-        <div><img src="/img/bj.jpg">
-        <img src="/img/bj.jpg">
-        <img src="/img/bj.jpg"></div>
-        <div><img src="/img/bj.jpg">
-        <img src="/img/bj.jpg">
-        <img src="/img/bj.jpg"></div>
-        <div><img src="/img/bj.jpg">
-        <img src="/img/bj.jpg">
-        <img src="/img/bj.jpg"></div>
-        <div><img src="/img/bj.jpg">
-        <img src="/img/bj.jpg">
-        <img src="/img/bj.jpg"></div>
-        
+            <img src="{{ asset('img/error.png') }}" id="error_image">
+
         </div>
 
 </body>
