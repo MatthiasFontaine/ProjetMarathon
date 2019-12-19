@@ -793,7 +793,7 @@ padding-left: 25px;}
 .progression {
     width: 65vw;
     display: flex;
-    margin-bottom: 15rem;
+    margin-bottom: 12rem;
     margin-left: auto;
     text-align: center;
     flex-wrap: wrap;
@@ -834,6 +834,43 @@ padding-left: 25px;}
     font-size: 2.2rem;
     margin-bottom: 5rem;
 }
+
+
+
+#title_user_critic{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+.critique_utilisateur_div {
+    margin-bottom: 10rem;
+    
+}
+
+.critique_utilisateur_div .critique_contenu{
+    width: 50%;
+    color:  #333;
+    margin-bottom:5rem;
+    background-color: white;
+}
+
+
+.nom_serie_critique_utilisateur h{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.nom_serie_critique_utilisateur{
+    background-color: none;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
 
 /* LISTE SERIES ******************************************************************************************/
 

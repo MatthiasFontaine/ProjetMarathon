@@ -83,6 +83,44 @@
       </div>    
       
 
+
+
+
+        <h1 id="title_user_critic">Critiques de *utilisateur*</h1>
+
+            <div class="critique_utilisateur_div">
+                <div class="nom_serie_critique_utilisateur">
+                    <h>*Nom de la série*</h>
+                </div>
+                        <div>
+                            <div class="critique_contenu">
+                                <h2>Titre de la critique</h2>
+                                    <p>Contenu de la critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique 
+                                    </p>
+                                <div class="critique_info_utilisateur">
+                                    <h3>Nom utilisateur</h3>
+                                        <h4>Note utilisateur</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                <div class="nom_serie_critique_utilisateur">
+                    <h>*Nom de la série*</h>
+                 </div>
+                        <div>
+                            <div class="critique_contenu">
+                                <h2>Titre de la critique</h2>
+                                    <p>Contenu de la critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique lorem ipsum critique 
+                                    </p>
+                                <div class="critique_info_utilisateur">
+                                    <h3>Nom utilisateur</h3>
+                                        <h4>Note utilisateur</h4>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+ 
       
 </body>
 </html>
