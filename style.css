@@ -586,6 +586,10 @@ body a {
     position: relative;
 }
 
+
+.dnone {
+    display:none;
+}
 .liste_episodes{
     margin-top: 6rem;
     width: 60vw;
